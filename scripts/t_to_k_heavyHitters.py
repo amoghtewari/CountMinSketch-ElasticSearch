@@ -8,10 +8,10 @@ import configparser
 
 
 # set appropriate keys and tokens
-consumer_key = '3eGFm3FLrGC0C9DL1bvoNA3dp'
-consumer_secret = 'FiD75AJGhV6aTancuJ86jE7FablpNaXTMJjhTkvFVjXvQXzWla'
-access_token = '126882218-6iygyuYuXkrl1lWMBpCwRoe6SBTeZbjiI2hJQwJX'
-access_token_secret = 'mbQbxJ8UsVURikiJUXrPiCkUfHY6kcD3a8xlCyqBUZ8Tm'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 
